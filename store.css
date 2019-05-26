@@ -1,0 +1,125 @@
+/**********************************************************
+ * Global Tag Styles 
+ **********************************************************/
+* {
+	font-family: Trebuchet MS,Verdana,Arial,Helvetica,sans-serif;
+	margin: 0px; 
+}
+
+p {
+	margin-top: 10px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	padding: 0px;	
+}
+
+ul {
+	margin-top: 10px;
+}
+
+/**********************************************************
+ * General Classes 
+ **********************************************************/
+.title {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 10px;	
+}
+
+/**********************************************************
+ * CONTAINER Table
+ **********************************************************/
+#containerTable {
+	margin: auto;
+	margin-top: 10px;
+	width: 780px;
+}
+
+/**********************************************************
+ * HEADER Row
+ **********************************************************/
+#headerTable {
+	background-color: #B10501;
+	border: solid 1px black;
+	border-bottom: solid 0px black;    
+	height: 100px;
+	padding: 10px;
+	width: 100%;
+}
+
+#headerTable td {           
+	padding: 10px;	
+}
+
+#headerTitle {
+	color: white;   
+    font-size: 2em;
+	font-weight: bold;	
+}
+
+/**********************************************************
+ * MAIN Table
+ **********************************************************/
+#mainTable {
+	border: solid 1px black;
+	border-top: solid 0px black;
+	height: 450px;
+	width: 100%;
+}
+
+/**********************************************************
+ * CONTENT Section
+ **********************************************************/
+#contentPane {
+	padding: 20px;
+}
+
+#contentTable {	
+	height: 100%;
+	width: 100%;
+}
+
+#contentTable td {   	
+	vertical-align: top;	
+}  
+
+/**********************************************************
+ * FOOTER Row
+ **********************************************************/
+#copyright {
+	font-size: .8em;	
+}
+
+#footerTable {   	
+	border: solid 1px black;
+	height: 50px;
+	margin-top: 15px; 
+	text-align: center;
+	width: 100%;
+}   
+
+/**********************************************************
+ * 'Item' Page
+ **********************************************************/
+#itemDesc {
+	margin-top: 20px;
+}
+
+#itemID {
+	font-size: .8em;
+}
+
+#itemImage {
+	height: 150px;
+	margin-top: 20px;
+}
+
+#itemPrice {
+	margin-top: 20px;
+}
