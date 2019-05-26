@@ -1,6 +1,6 @@
 <?php     
 	// Include HTML header file                           	
-	include 'includes/header.html';
+	include 'includes/header.phtml';
 ?>  
 	
 	<div class="title">Welcome to the Everything Store!</div>
@@ -36,5 +36,5 @@
 
 <?php
 	// Include HTML footer file
-	include 'includes/footer.html';
+	include 'includes/footer.phtml';
 ?>

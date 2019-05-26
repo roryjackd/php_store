@@ -1,6 +1,8 @@
 <?php     
-	// Include HTML header file                           	
-	include 'includes/header.html';
+	// Include HTML header file 
+	$title = '42" LCD Television';
+
+	include 'includes/header.phtml';
 ?>  
 							
 	<!-- Output item's name -->
@@ -28,5 +30,5 @@
 							
 <?php
 	// Include HTML footer file
-	include 'includes/footer.html';
+	include 'includes/footer.phtml';
 ?>
